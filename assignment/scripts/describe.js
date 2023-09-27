@@ -26,10 +26,13 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+
+// We create a variable and name it 'Dane'
+// Then, we check if name is strictly equal to 'Mary'
+// if name is strictly equal to 'Mary', then we would expect 'Hi, Mary!' as a result in the console.
+// if the variable name is set to anything else, we would expect ''How do you do?' as a result in the console.
+// for this code block, we would expect 'How do you do?' in the console, since name is set to 'Dane'.
+
 
 //CODE
 /*
@@ -45,10 +48,15 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+
+// First, we define a variable named 'secret'
+// then, we define another variable 'code', and set it equal to the integer 123.
+// we then set a series of 'if' statements, of which both 'if' statements will be checked each time the code is run. 
+//First, we check if our code variable (123) is strictly equal to the integer 123.
+// if true (it is true), our 'secret' variable is set to 'super' AND our 'code' variable is set to: code * 2 which is now equal to (246).
+// Next, for our second 'if' statement, we check if code is greater than 250. Since we know code is now set to 246, it does not satisfy
+// this conditional statement. 
+// Therefore, we can expect our console.log(secret) to yield the result : 'super'.
 
 //CODE
 /*
@@ -70,10 +78,18 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We define a variable 'isStudent' and set it to true.
+// We define a variable 'age' and set it to 34.
+// we define a variable 'zip' and set it equal to 55407.
+// We then define a series of conditionals, which unlike our previous question, will be checked in a sequence, and then exit once one of our 
+// conditions is satisfied. 
+// Firstly, we check if 'isStudent' is strictly equal to true, AND zip is less than 80000. if our condition is met, we console.log : "you're a student on the West Coast!" and then exit.
+// next, we check if 'isStudent is set to false OR age is less than 30. if our condition is met, we console.log : "What are your hobbies?" and then exit.
+// next, we check if 'isStudent' is equal to true. if our condition is met, we console.log : "Welcome to Prime!" and then exit.
+// and finally, if none of our conditions have been satisfied up to this point, we console.log : 'How about the weather?' and then exit.
 //
+// Since zip < 80000, and 'isStudent' is set to true, our first two conditions are skipped.
+// Therefore, we can expect our console.log to display: 'Welcome to Prime!'
 
 //CODE
 /*
@@ -130,11 +146,13 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - colorOne should be set to 'blue' and colorTwo should be set to 'red'.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+  // FIX - colorTwo should be set to 'purple' as well.
   colorOne = 'purple';
 }
 */
@@ -146,7 +164,7 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-
+// FIX - should be if(temp > 39 && time >=4)
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -161,8 +179,10 @@ let age = 21;
 const minAge = 21;
 
 if(minAge <= age) {
+  // FIX - Should yield 'enter'
   console.log('no entry');
 } else {
+  // FIX - should yield 'no entry'
   console.log('enter');
 }
 */
